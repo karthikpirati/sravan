@@ -69,7 +69,7 @@
 							<outputDirectory>${project.build.directory}/classes/resources/</outputDirectory>
 							<resources>
 								<resource>
-									<directory>${project.parent.basedir}/digital-agreements-ui/src/main/web/dist/digital-agreements-ui/</directory>
+									<directory>${project.parent.basedir}/digital-agreements-ui/src/main/web/dist/digitalagreements/</directory>
 								</resource>
 							</resources>
 						</configuration>

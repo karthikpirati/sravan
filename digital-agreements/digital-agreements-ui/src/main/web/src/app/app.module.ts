@@ -8,9 +8,10 @@ import { HeaderComponent } from "./header/header.component";
 import { UrlService } from "./services/url.service";
 import { GetAgreementService } from "./services/get-agreement.service";
 import { HttpClientModule } from "@angular/common/http";
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, AgreementComponent, HeaderComponent],
+  declarations: [AppComponent, AgreementComponent, HeaderComponent, FooterComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [UrlService, GetAgreementService],
   bootstrap: [AppComponent]
