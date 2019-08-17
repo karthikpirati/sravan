@@ -7,9 +7,8 @@ export class GetAgreementService implements CanActivate {
   constructor(private urlService: UrlService) {}
 
   canActivate() {
-    this.urlService.getAgreement().subscribe(res => {
-      console.log(res);
-    });
-    return true;
+    let isExists: boolean = true;
+    this.urlService.getAgreement().subscribe(res => {});
+    return isExists;
   }
 }

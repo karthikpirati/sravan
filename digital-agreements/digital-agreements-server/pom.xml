@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.digital.agreements</groupId>
+		<groupId>jnet.agreement</groupId>
 		<artifactId>digital-agreements</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
@@ -47,7 +47,7 @@
 			<version>19.0</version>
 		</dependency>
 		<dependency>
-			<groupId>com.digital.agreements</groupId>
+			<groupId>jnet.agreement</groupId>
 			<artifactId>digital-agreements-ui</artifactId>
 			<version>${project.version}</version>
 			<scope>runtime</scope>
@@ -69,7 +69,7 @@
 							<outputDirectory>${project.build.directory}/classes/resources/</outputDirectory>
 							<resources>
 								<resource>
-									<directory>${project.parent.basedir}/digital-agreements-ui/src/main/web/dist/digitalagreements/</directory>
+									<directory>${project.parent.basedir}/digital-agreements-ui/src/main/web/dist/digital-agreements-ui/</directory>
 								</resource>
 							</resources>
 						</configuration>

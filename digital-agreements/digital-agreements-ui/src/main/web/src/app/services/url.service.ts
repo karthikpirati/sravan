@@ -16,6 +16,6 @@ export class UrlService {
   }
 
   getAgreement(): Observable<any> {
-    return this.http.get(this.baseUrl + "/agreement/get");
+    return this.http.get(this.baseUrl + "/agreement/user");
   }
 }

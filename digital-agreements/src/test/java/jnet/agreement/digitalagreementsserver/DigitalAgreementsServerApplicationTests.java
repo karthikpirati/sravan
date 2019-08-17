@@ -1,4 +1,4 @@
-package com.digital.agreements.digitalagreementsserver;
+package jnet.agreement.digitalagreementsserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
