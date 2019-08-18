@@ -1,0 +1,24 @@
+server:
+  port: 4300
+
+spring:
+  profiles: dev
+  jackson:
+    serialization: false
+resources:
+    path: file
+ldap:
+  urls: ldap://10.182.71.23:389
+  username: cn=digitalagreement-app,ou=serviceaccounts,o=jnet
+  password: jnet
+---
+spring:
+    profiles: prod
+application:
+  debug: 'no'
+resources:
+  path: 'classpath:'
+ldap:
+  urls: ldap://idv2.apps:389, ldap://idv.apps:389
+  username: cn=digitalagreement-app,ou=serviceaccounts,o=jnet
+  password: jnet
